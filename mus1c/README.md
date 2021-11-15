@@ -4,9 +4,9 @@ This one is worth 300 points, 100 more than the Pitter, Patter, Platters one. It
 
 We're give a .txt file with some lyrics, and 1 hint: `Do you think you can master rockstar?`
 
-I've included the lyrics themselves in this folder because they're small.
+I've included the files themselves in this folder because they're small.
 
-My first though is that this is some sort of evil lyrical programming language. Words like `put X into Y` seems like putting something on a stack, and `shout it` seems like popping something from a stack... Though trying to interpret this might be a headache (I know assembly, but I will probably interpret key words wrong). Let's see if this is an official language. 
+My first thought is that this is some sort of evil lyrical programming language. Words like `put X into Y` seems like putting something on a stack, and `shout it` seems like popping something from a stack... Though trying to interpret this might be a headache (I know assembly, but I will probably interpret key words wrong). Let's see if this is an official language. 
 
 Googling `rockstar programming language` takes us to https://codewithrockstar.com/online
 
