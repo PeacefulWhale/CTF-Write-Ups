@@ -5,6 +5,7 @@
 
 import * as binary from './output.wasm';
 
+// ascii() turns the array of integers into an array of characters
 // printable ASCII characters = 32 to 126
 function ascii(a)
 {
@@ -20,9 +21,9 @@ console.log("Starting!");
 
 let flag = []; // use an array of integers instead of a string to avoid unwanted behavior!
 
-// when these no longer match, it means we've tried all the possibilities
+
 let index = 0;
-mainLoop:
+mainLoop: // This is just a fancy goto... why do people hate goto functions ;__;
 while (true)
 {
     for(let i = 32; i <= 126; i++)
