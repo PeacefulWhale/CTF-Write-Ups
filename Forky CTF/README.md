@@ -7,7 +7,7 @@ In this program, identify the last integer value that is passed as parameter to 
 What happens when you fork? The flag is picoCTF{IntegerYouFound}. For example, if you found that the last integer passed was 1234, the flag would be picoCTF{1234}
 ```
 
-Looking at the binary we find that this is an ELF file and while it is likely possible to figure out what to do with it by debugging it with `gbd` I feel like it may be possible to do with `ghidra` so we'll try that first.;E
+Looking at the binary we find that this is an ELF file and while it is likely possible to figure out what to do with it by debugging it with `gbd` I feel like it may be possible to do with `ghidra` so we'll try that first.
 
 Opening it up and running the auto analysis on it we can find that this isn't that large of a file, and it doesn't appear that they're attempting to obfuscate it. `doNothing` simply returns its input. What is more difficult is what exactly we're feeding it.
 
