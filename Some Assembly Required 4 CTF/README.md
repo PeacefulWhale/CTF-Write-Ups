@@ -4,7 +4,7 @@
 
 This was a fun challenge, and I got to practice my assembly skills (though I did essentially have to 'learn' a new language because I've never worked with WebAssembly before). It was also a good refresher on my javaScript skills. 
 
-I solved this by modifying the binary to include a global variable that I could access from a javaScript module that kept track of how many times the input successfully compared to the flag. This allowed to learn that it checked the flag in groups of 2, and for me to create a brute force program. 
+I solved this by modifying the binary to include a global variable that I could access from a javaScript module that kept track of how many times the input successfully compared to the flag. This allowed me to learn that it checked the flag in groups of 2, and for me to create a brute force program. 
 
 I probably could have reversed engineer this, but if I'm honest that's not as fun (and much more tedious). Even knowing the flag I still don't see how the data in the binary is equivalent (mostly because it has a lot of bitwise operations and those are hard to do in your head). 
 
