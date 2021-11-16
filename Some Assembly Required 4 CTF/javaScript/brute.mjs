@@ -18,10 +18,7 @@ function ascii(a)
 }
 
 console.log("Starting!");
-
 let flag = []; // use an array of integers instead of a string to avoid unwanted behavior!
-
-
 let index = 0;
 mainLoop: // This is just a fancy goto... why do people hate goto functions ;__;
 while (true)
@@ -57,4 +54,6 @@ while (true)
     break mainLoop; // give up
 }
 let flagText = ascii(flag);
+// I couldn't get template strings working (I was too lazy to install that package)
+// So I just used concat... I'm sorry but if JavaScript had a decent printf I wouldn't have done this!
 console.log("Final Flag: ".concat(flagText.join('')));
