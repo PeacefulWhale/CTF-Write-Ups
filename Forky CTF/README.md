@@ -108,7 +108,7 @@ FORK 2: 8x  ADD
 FORK 1: 16x ADD
 ```
 
-I also just relieved that I can probably figure this out with something like `ltrace -f`, which would have required less mental counting, but oh well.
+I also just realized that I can probably figure this out with something like `ltrace -f`, which would have required less mental counting, but oh well.
 
 So if I have followed the graph properly (and assuming that the forks are created at the current step in the code, which I believe they are) the final number of `add 1234567890` is 16.
 
