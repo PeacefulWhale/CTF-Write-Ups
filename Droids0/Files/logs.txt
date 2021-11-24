@@ -1,0 +1,7 @@
+I've delete all the other logs (because there were around 50k) accept for the very last ones, which you can see below!
+-------------------------------------------------------------------------------------------------------------------------------------
+11-24 14:38:27.049  7985  7985 I PICO    : picoCTF{a.moose.once.bit.my.sister}
+11-24 14:38:27.058   498  1587 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-24 14:38:27.177   498  1587 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-24 14:38:27.465  7985  7985 I PICO    : picoCTF{a.moose.once.bit.my.sister}
+11-24 14:38:27.470   498  1587 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
