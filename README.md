@@ -13,3 +13,4 @@ Installed Packages (on the VM I use a lot):
 5. `sudo apt install wireshark`: Wireshark
 6. `sudo apt install libimage-exiftool-perl`: Exiftool
 7. `sudo apt install net-tools`: Net Tools
+8. `sudo apt install binwalk`: Binwalk
