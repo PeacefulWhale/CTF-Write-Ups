@@ -4,7 +4,7 @@ I've been doing CTF challenges for a little bit now.
 
 I've decided to start doing write ups with them and document my process for myself in the future, and anyone else who happens to wander into here.
 
-Installed Packages (on the VM I use a lot):
+Installed Packages (on the VM I use a lot, and not including a lot of stuff that came pre-installed or I only use once in a while):
 
 1. `sudo apt update`: Upgrade apt
 2. `sudo apt install openvpn unzip`: openVPN
@@ -13,4 +13,6 @@ Installed Packages (on the VM I use a lot):
 5. `sudo apt install wireshark`: Wireshark
 6. `sudo apt install libimage-exiftool-perl`: Exiftool
 7. `sudo apt install net-tools`: Net Tools
-8. `sudo apt install binwalk`: Binwalk
+8. `sudo apt-get install binwalk`: Binwalk
+
+Shout out to GCC, GDB, LLDB, Python, Apt, Node.js, Pip, and many more I can't remember right now.
