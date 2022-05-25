@@ -1,6 +1,6 @@
 # Some Assembly Required 4
 
-## TL;DR:
+## TL;DR
 
 This was a fun challenge, and I got to practice my assembly skills (though I did essentially have to 'learn' a new language because I've never worked with WebAssembly before). It was also a good refresher on my javaScript skills. 
 
@@ -12,7 +12,8 @@ I probably could have reverse engineered (reversed engineer?) this, but if I'm h
 
 I'll probably do the `Some Assembly Required` 1, 2, and 3 later, and it probably would have been better to start out with those XD
 
-## The Long Story / My Transcribed Thoughts of Chaos:
+## The Long Story / My Transcribed Thoughts of Chaos
+
 I feel like I should probably do 1 - 3 first, but oh well, we'll start with this one.
 
 We're given a webpage at http://mercury.picoctf.net:54609/index.html
@@ -41,7 +42,8 @@ I think at this point what we need to do is modify the original binary to get th
 
 This was one of the harder parts of this challenge, adding in this counting variable...
 
-Let's head back to our temp directory and work on this. 
+Let's head back to our temp directory and work on this.
+
 1. `wasm2wat <binary file> -f --generate-names -o output.wat`: To get the wat file
 2. Add the counter to the loop in the check_flag function
 3. `wat2wasm output.wat`: Compile the wat file
