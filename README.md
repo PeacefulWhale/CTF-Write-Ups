@@ -15,5 +15,8 @@ Installed Packages (on the VM I use a lot, and not including a lot of stuff that
 7. `sudo apt install libimage-exiftool-perl`: Exiftool
 8. `sudo apt install net-tools`: Net Tools
 9. `sudo apt-get install binwalk`: Binwalk
+10. `sudo dpkg --add-architecture i386`: Adding support for i386 (run update after)
+11. `sudo apt-get install gcc-multilib`: Library for 32 bit ELF support
+12. `sudo apt install python3-pip`: pip for install python packages (like pwntools)
 
 Shout out to GCC, GDB, LLDB, Python, Apt, Node.js, PIP, and many more I can't remember right now.
